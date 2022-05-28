@@ -1,0 +1,54 @@
+{
+    "sourceFile": "styles/header.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 9,
+            "patches": [
+                {
+                    "date": 1647435085402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647435090651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,4 +6,5 @@\n   line-height: 2.8rem;\r\n   \r\n }\r\n \r\n+.heade\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435099436,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,5 @@\n   line-height: 2.8rem;\r\n   \r\n }\r\n \r\n-.heade\n\\ No newline at end of file\n+.header__logo \n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435105241,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,5 +6,8 @@\n   line-height: 2.8rem;\r\n   \r\n }\r\n \r\n-.header__logo \n\\ No newline at end of file\n+.header__logo {\r\n+  height: 100%;\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435114983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,9 @@\n   line-height: 2.8rem;\r\n   \r\n }\r\n \r\n+\r\n .header__logo {\r\n   height: 100%;\r\n-  \r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435123229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,8 +6,11 @@\n   line-height: 2.8rem;\r\n   \r\n }\r\n \r\n+.header__logo-nav {\r\n+  height: 100%;\r\n+}\r\n \r\n .header__logo {\r\n   height: 100%;\r\n \r\n"
+                },
+                {
+                    "date": 1647435448694,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,6 +12,6 @@\n }\r\n \r\n .header__logo {\r\n   height: 100%;\r\n-\r\n-}\n\\ No newline at end of file\n+}\r\n+.header\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435454369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,5 +13,7 @@\n \r\n .header__logo {\r\n   height: 100%;\r\n }\r\n-.header\n\\ No newline at end of file\n+.header__logo img {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435460752,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,6 +14,6 @@\n .header__logo {\r\n   height: 100%;\r\n }\r\n .header__logo img {\r\n-  h1\r\n+  h10\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647436266869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,5 +17,5 @@\n .header__logo img {\r\n   height: 100%;\r\n   object-fit: cover;\r\n }\r\n-.header__nav--container\n\\ No newline at end of file\n+.header__nav--container \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1647435085402,
+            "name": "Commit-0",
+            "content": ".header {\r\n  height: 4.4rem;\r\n  padding: 20px 85px;\r\n  background-color: var(--header-background-scroll);\r\n  font-size: 2rem;\r\n  line-height: 2.8rem;\r\n  \r\n}\r\n\r\n"
+        }
+    ]
+}

@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!--
+Created by Alight Motion (http://alightmotion.com)
+Exported: 2022-03-14 10:38 PM
+4.0.3 (211)
+-->
+<scene title="Dự án mới" width="1440" height="1080" exportWidth="1440" exportHeight="1080" bgcolor="#FFD8D8D8" totalTime="7199" fps="60" modifiedTime="1647272297939" amver="211" ffver="105" am="com.alightcreative.motion/4.0.3" amplatform="ios" precompose="dynamicResolution" retime="freeze">
+  <media uri="am-internal:///49260D1A8CCD6DB63D9394E727EAB934D6DD2A2C.mov" type="video/quicktime" duration="7187" size="6189153" fps="35.62" infoUpdated="1647270268979"/>
+  <shape id="3" startTime="0" endTime="6366" fillType="media" fillVideo="am-internal:///49260D1A8CCD6DB63D9394E727EAB934D6DD2A2C.mov" s=".rect">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+      <scale value="1.333333,1.333333"/>
+      <rotation value="-90.000008"/>
+    </transform>
+    <property name="size" type="vec2" value="303.187500,540.000000"/>
+  </shape>
+  <shape id="29" startTime="6367" endTime="7053" fillType="media" fillVideo="am-internal:///49260D1A8CCD6DB63D9394E727EAB934D6DD2A2C.mov" inTime="6500" s=".rect">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+      <scale value="1.333333,1.333333"/>
+      <rotation value="-90.000008"/>
+    </transform>
+    <property name="size" type="vec2" value="303.187500,540.000000"/>
+  </shape>
+  <shape id="5" label="Hình dạng 1" startTime="0" endTime="7199" fillType="color">
+    <transform>
+      <location value="148.000031,184.000000,0.000000"/>
+      <scale value="0.411111,0.411111"/>
+    </transform>
+    <fillColor value="#FF468286"/>
+    <path d="M -195.0 -82.5L -194.9995 -40.691936L -239.74257 -40.179184L -203.36871 -78.69685L -241.03911 -43.03912C -243.51286 -40.565365, -242.34148 -38.48151, -238.94725 -37.634033L 238.94727 -37.634033C 242.25212 -38.45921, 243.44969 -40.345245, 241.22687 -42.84028L 203.20972 -78.85285L 239.74254 -40.179184L 194.99947 -40.691936L 195.0 -82.5L 360.0 -82.5L 315.0 -22.5L 360.0 37.5L 243.21428 37.498493L 241.07143 -26.785713L 240.0 -26.785713L 240.0 82.5L -240.0 82.5L -240.0 -26.785713L -241.07143 -26.785713L -243.21428 37.498493L -360.0 37.5L -315.0 -22.5L -360.0 -82.5L -195.0 -82.5Z"/>
+  </shape>
+  <text id="6" label="12a1 vip pro" startTime="0" endTime="7199" fillType="color" size="11.000000" font="googlefonts?name=Roboto&amp;weight=700&amp;italic=1" wrapWidth="720" align="center">
+    <transform>
+      <location value="147.000031,193.945740,0.000000"/>
+    </transform>
+    <fillColor value="#FFEAEAEA"/>
+    <content>12a1 vip pro</content>
+</text>
+  <text id="7" tag="+blue" startTime="0" endTime="7199" fillType="color" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="720" align="left">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+    </transform>
+    <fillColor value="#FF000000"/>
+  </text>
+  <shape id="12" label="Hình dạng 2" startTime="3934" endTime="5933" fillType="color">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+    </transform>
+    <fillColor value="#FFAB4BA6"/>
+    <path d=""/>
+  </shape>
+  <shape id="15" label="Chữ nhật 1" startTime="3567" endTime="6366" fillType="color" s=".rect">
+    <transform>
+      <location value="365.094116,363.396088,0.000000"/>
+    </transform>
+    <fillColor value="#FFF3D13D"/>
+    <property name="size" type="vec2" value="183.083984,43.962311"/>
+  </shape>
+  <shape id="16" label="Chữ nhật 1 Copy" startTime="3568" endTime="6366" fillType="color" s=".rect">
+    <transform>
+      <location value="312.452209,465.282990,0.000000"/>
+    </transform>
+    <fillColor value="#FFF3D13D"/>
+    <property name="size" type="vec2" value="407.488159,24.452374"/>
+  </shape>
+  <text id="17" label="Video" startTime="3567" endTime="6366" fillType="color" size="30.000000" font="googlefonts?name=Open Sans&amp;weight=800" wrapWidth="720" align="left">
+    <transform>
+      <location>
+        <kf t="-0.004643" v="108.010139,363.396088,0.000000"/>
+        <kf t="0.161786" v="542.010132,363.396271,0.000000" e="cubicBezier 0.0 0.66136366 0.46405795 0.9795455"/>
+      </location>
+      <opacity>
+        <kf t="0.166845" v="1.000000"/>
+        <kf t="0.428725" v="0.517857"/>
+        <kf t="0.643087" v="0.694196"/>
+        <kf t="0.738478" v="0.517857"/>
+        <kf t="0.893176" v="0.767857"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FF000000"/>
+    <content>Video</content>
+</text>
+  <text id="27" label="NƠI THUYẾT TRÌNH PIN" startTime="3566" endTime="6366" fillType="color" size="16.000000" font="googlefonts?name=Roboto&amp;weight=500" wrapWidth="720" align="left">
+    <transform>
+      <location>
+        <kf t="0.001726" v="46.000153,465.282990,0.000000"/>
+        <kf t="0.168643" v="466.980499,465.282806,0.000000" e="cubicBezier 0.0 0.6181818 0.33454105 0.96477276"/>
+      </location>
+      <opacity>
+        <kf t="0.428929" v="0.525974"/>
+        <kf t="0.155000" v="1.000000"/>
+        <kf t="0.631429" v="0.676339"/>
+        <kf t="0.726429" v="0.517857"/>
+        <kf t="0.881429" v="0.957589"/>
+      </opacity>
+    </transform>
+    <fillColor value="#FFFF0000"/>
+    <content>NƠI THUYẾT TRÌNH PIN</content>
+</text>
+  <shape id="32" label="Tứ giác 1" startTime="3300" endTime="6399" fillType="color" s=".quad">
+    <transform>
+      <location>
+        <kf t="0.021620" v="-13.138458,884.320984,0.000000"/>
+        <kf t="0.193611" v="348.861481,884.320984,0.000000" e="cubicBezier 0.028985508 0.5534091 0.46618357 1.0"/>
+        <kf t="0.043240" v="108.415527,884.320984,0.000000"/>
+        <kf t="0.064537" v="161.007385,881.820923,0.000000"/>
+        <kf t="0.107777" v="291.906403,883.842651,0.000000"/>
+        <kf t="0.118425" v="312.452209,883.946228,0.000000"/>
+        <kf t="0.010971" v="-80.638451,899.381348,0.000000"/>
+        <kf t="0.053888" v="110.211441,883.842651,0.000000"/>
+        <kf t="0.086157" v="256.456909,883.842651,0.000000"/>
+        <kf t="0.075508" v="226.444458,883.842651,0.000000"/>
+      </location>
+      <scale value="0.736234,0.736234"/>
+    </transform>
+    <fillColor value="#FF45ABD7"/>
+    <property name="p1" type="vec2" value="-115.943390,-62.641479"/>
+    <property name="p2" type="vec2" value="101.981110,-38.867920"/>
+    <property name="p3" type="vec2" value="109.528351,40.566040"/>
+    <property name="p4" type="vec2" value="-95.566071,60.943359"/>
+  </shape>
+  <text id="13" label="GIƠ " startTime="3300" endTime="6399" fillType="color" size="22.000000" font="googlefonts?name=Source Sans Pro&amp;weight=600" wrapWidth="1070" align="left">
+    <transform>
+      <location>
+        <kf t="-0.004194" v="897.000000,910.320129,0.000000"/>
+        <kf t="0.021620" v="552.500061,915.071350,0.000000"/>
+        <kf t="0.032268" v="616.000061,915.071350,0.000000"/>
+        <kf t="0.053888" v="664.500000,915.071350,0.000000"/>
+        <kf t="0.064537" v="709.000000,915.071350,0.000000"/>
+        <kf t="0.075508" v="784.000000,915.071350,0.000000"/>
+        <kf t="0.107777" v="840.999878,915.071350,0.000000"/>
+        <kf t="0.129074" v="877.999878,915.071350,0.000000"/>
+        <kf t="0.140045" v="885.499878,915.071350,0.000000"/>
+        <kf t="0.172314" v="890.999878,915.071350,0.000000"/>
+        <kf t="0.204582" v="893.999878,915.071350,0.000000"/>
+        <kf t="0.000000" v="437.000122,915.131653,0.000000"/>
+        <kf t="0.096805" v="836.119873,915.071350,0.000000"/>
+        <kf t="0.043240" v="664.500000,915.131653,0.000000"/>
+      </location>
+      <scale value="1.155640,1.155640"/>
+      <rotation value="3.292683"/>
+      <opacity>
+        <kf t="0.182962" v="1.000000"/>
+        <kf t="0.430461" v="0.707792"/>
+        <kf t="0.720878" v="1.000000"/>
+      </opacity>
+    </transform>
+    <content>GIƠ </content>
+</text>
+  <text id="34" startTime="4767" endTime="6766" fillType="color" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="720" align="left">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+    </transform>
+    <fillColor value="#FF7F7F7F"/>
+  </text>
+  <text id="35" startTime="4234" endTime="6233" fillType="color" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="720" align="left">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+    </transform>
+    <fillColor value="#FF7F7F7F"/>
+  </text>
+  <text id="36" startTime="4234" endTime="6233" fillType="color" size="18.000000" font="googlefonts?name=Roboto&amp;weight=400" wrapWidth="720" align="left">
+    <transform>
+      <location value="720.000000,540.000000,0.000000"/>
+    </transform>
+    <fillColor value="#FF7F7F7F"/>
+  </text>
+</scene>

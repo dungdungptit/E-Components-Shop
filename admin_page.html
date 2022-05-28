@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Google Font Roboto -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	</style>
+	<!-- Google Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+	<!-- Boxicon -->
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles/reset.css" />
+	<link rel="stylesheet" href="styles/scroll.css" />
+	<link rel="stylesheet" href="styles/header.css" />
+	<link rel="stylesheet" href="styles/index.css" />
+	<link rel="stylesheet" href="admin_styles/admin_page.css">
+	<title>E-Components Shop</title>
+	<link rel="icon" href="asset/logopink.png" />
+</head>
+
+<body>
+	<div class="web-container">
+		<div id="header"></div>
+		<div class="dashboard-container">
+			<div class="dashboard-container__header">
+				<div class="dashboard-container__header--title">
+					<span class="material-icons header__user--info__icon">
+						home
+					</span>
+					<h1>/ Dashboard / <a href="#"> Statistical</a></h1>
+				</div>
+				<div class="dashboard-container__body">
+					<div class="dashboard-container__body--title">
+						<h1>Welcome, Admin</h1>
+					</div>
+					<div class="dashboard-container__body--statistical">
+						<div class="dashboard-container__body--statistical--title">
+							<h1>Overview</h1>
+						</div>
+						<div class="dashboard-container__body--statistical--title--body">
+							<div class="dashboard-container__body--statistical--item">
+								<div class="dashboard-container__body--statistical--item--icon">
+									<span class="material-icons header__user--info__icon yellow">
+										library_add_check
+									</span>
+								</div>
+								<div class="dashboard-container__body--statistical--item--text">
+									<h3>Total</h3>
+									<p>
+										$8,00,000
+									</p>
+								</div>
+							</div>
+							<div class="dashboard-container__body--statistical--item">
+								<div class="dashboard-container__body--statistical--item--icon">
+									<span class="material-icons header__user--info__icon orange">
+										shopping_cart
+									</span>
+								</div>
+								<div class="dashboard-container__body--statistical--item--text">
+									<h3>Product</h3>
+									<p>
+										8
+									</p>
+								</div>
+							</div>
+							<div class="dashboard-container__body--statistical--item">
+								<div class="dashboard-container__body--statistical--item--icon">
+									<span class="material-icons header__user--info__icon green">
+										category
+									</span>
+								</div>
+								<div class="dashboard-container__body--statistical--item--text">
+									<h3>Category</h3>
+									<p>
+										6
+									</p>
+								</div>
+							</div>
+							<div class="dashboard-container__body--statistical--item">
+								<div class="dashboard-container__body--statistical--item--icon">
+									<span class="material-icons header__user--info__icon purple">
+										task
+									</span>
+								</div>
+								<div class="dashboard-container__body--statistical--item--text">
+									<h3>Order</h3>
+									<p>
+										1/3
+									</p>
+								</div>
+							</div>
+							<div class="dashboard-container__body--statistical--item">
+								<div class="dashboard-container__body--statistical--item--icon">
+									<span class="material-icons header__user--info__icon red">
+										people
+									</span>
+								</div>
+								<div class="dashboard-container__body--statistical--item--text">
+									<h3>User</h3>
+									<p>
+										5
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous">
+	</script>
+<script>
+	$(function () {
+		$("#header").load("admin_header.html");
+		$("#footer").load("footer.html");
+	});
+</script>
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- My JS -->
+<script src="js/header.js"></script>
+<script src="js/index.js"></script>

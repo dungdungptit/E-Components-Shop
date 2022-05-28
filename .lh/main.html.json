@@ -1,0 +1,190 @@
+{
+    "sourceFile": "main.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 43,
+            "patches": [
+                {
+                    "date": 1647434936191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647434941458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <div class=\"header__logo\">\r\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n-\t\t\t\t\t\t\r\n+\t\t\t\t\t\t/\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n       <div class=\"content\"></div>\r\n"
+                },
+                {
+                    "date": 1647434947680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <div class=\"header__logo\">\r\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n-\t\t\t\t\t\t/\r\n+\t\t\t\t\t\t.header__nav\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n       <div class=\"content\"></div>\r\n"
+                },
+                {
+                    "date": 1647434953213,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <div class=\"header__logo\">\r\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n-\t\t\t\t\t\t.header__nav\r\n+\t\t\t\t\t\t.header__nav--contaiine\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n       <div class=\"content\"></div>\r\n"
+                },
+                {
+                    "date": 1647434960245,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,9 @@\n           <div class=\"header__logo\">\r\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n-\t\t\t\t\t\t.header__nav--contaiine\r\n+\t\t\t\t\t\t<div class=\"header__nav--container\"></div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n       <div class=\"content\"></div>\r\n"
+                },
+                {
+                    "date": 1647434976523,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -36,9 +36,11 @@\n           <div class=\"header__logo\">\r\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n-\t\t\t\t\t\t<div class=\"header__nav--container\"></div>\r\n+\t\t\t\t\t\t<div class=\"header__nav--container\">\r\n+\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n       <div class=\"content\"></div>\r\n"
+                },
+                {
+                    "date": 1647434982929,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\theader__\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647434988636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\theader__\r\n+\t\t\t\t\t\t\theader__nav--item\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647434994548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\theader__nav--item\r\n+\t\t\t\t\t\t\theader__nav--item>a\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647435001548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\theader__nav--item>a\r\n+\t\t\t\t\t\t\theader__nav--item>a.header__nav--link\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647435028455,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,21 +31,23 @@\n \t</head>\r\n \t<body>\r\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n-        <div class=\"header__logo-nav\">\r\n-          <div class=\"header__logo\">\r\n-            <img src=\"asset/brand.png\" alt=\"\">\r\n-          </div>\r\n-          <div class=\"header__nav\">\r\n+\t\t\t\t<div class=\"header__logo-nav\">\r\n+\t\t\t\t\t<div class=\"header__logo\">\r\n+\t\t\t\t\t\t<img src=\"asset/brand.png\" alt=\"\" />\r\n+\t\t\t\t\t</div>\r\n+\t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\theader__nav--item>a.header__nav--link\r\n+\t\t\t\t\t\t\t<header__nav--item\r\n+\t\t\t\t\t\t\t\t><a href=\"\" class=\"header__nav--link\">Hot</a\r\n+\t\t\t\t\t\t\t></header__nav--item>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n-        </div>\r\n-      </header>\r\n-      <div class=\"content\"></div>\r\n-      <footer class=\"footer\"></footer>\r\n+\t\t\t\t</div>\r\n+\t\t\t</header>\r\n+\t\t\t<div class=\"content\"></div>\r\n+\t\t\t<footer class=\"footer\"></footer>\r\n \t\t</div>\r\n \t</body>\r\n </html>\r\n <!-- Slick Slider JS -->\r\n"
+                },
+                {
+                    "date": 1647435037927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,23 +31,21 @@\n \t</head>\r\n \t<body>\r\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n-\t\t\t\t<div class=\"header__logo-nav\">\r\n-\t\t\t\t\t<div class=\"header__logo\">\r\n-\t\t\t\t\t\t<img src=\"asset/brand.png\" alt=\"\" />\r\n-\t\t\t\t\t</div>\r\n-\t\t\t\t\t<div class=\"header__nav\">\r\n+        <div class=\"header__logo-nav\">\r\n+          <div class=\"header__logo\">\r\n+            <img src=\"asset/brand.png\" alt=\"\">\r\n+          </div>\r\n+          <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\t<header__nav--item\r\n-\t\t\t\t\t\t\t\t><a href=\"\" class=\"header__nav--link\">Hot</a\r\n-\t\t\t\t\t\t\t></header__nav--item>\r\n+\t\t\t\t\t\t\theader__nav--item>a.header__nav--link\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n-\t\t\t\t</div>\r\n-\t\t\t</header>\r\n-\t\t\t<div class=\"content\"></div>\r\n-\t\t\t<footer class=\"footer\"></footer>\r\n+        </div>\r\n+      </header>\r\n+      <div class=\"content\"></div>\r\n+      <footer class=\"footer\"></footer>\r\n \t\t</div>\r\n \t</body>\r\n </html>\r\n <!-- Slick Slider JS -->\r\n"
+                },
+                {
+                    "date": 1647435049435,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\theader__nav--item>a.header__nav--link\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"\" class=\"header__nav--link\"></a></div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647435055072,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"\" class=\"header__nav--link\"></a></div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"hot\" class=\"header__nav--link\"></a></div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647435068181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,9 +37,9 @@\n             <img src=\"asset/brand.png\" alt=\"\">\r\n           </div>\r\n           <div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"hot\" class=\"header__nav--link\"></a></div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"\" class=\"header__nav--link\">H</a></div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n         </div>\r\n       </header>\r\n"
+                },
+                {
+                    "date": 1647435523039,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -31,21 +31,23 @@\n \t</head>\r\n \t<body>\r\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n-        <div class=\"header__logo-nav\">\r\n-          <div class=\"header__logo\">\r\n-            <img src=\"asset/brand.png\" alt=\"\">\r\n-          </div>\r\n-          <div class=\"header__nav\">\r\n+\t\t\t\t<div class=\"header__logo-nav\">\r\n+\t\t\t\t\t<div class=\"header__logo\">\r\n+\t\t\t\t\t\t<a href=\"\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n+\t\t\t\t\t</div>\r\n+\t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n-\t\t\t\t\t\t\t<div class=\"header__nav--item\"><a href=\"\" class=\"header__nav--link\">H</a></div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n-        </div>\r\n-      </header>\r\n-      <div class=\"content\"></div>\r\n-      <footer class=\"footer\"></footer>\r\n+\t\t\t\t</div>\r\n+\t\t\t</header>\r\n+\t\t\t<div class=\"content\"></div>\r\n+\t\t\t<footer class=\"footer\"></footer>\r\n \t\t</div>\r\n \t</body>\r\n </html>\r\n <!-- Slick Slider JS -->\r\n"
+                },
+                {
+                    "date": 1647435529898,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n \t\t\t\t<div class=\"header__logo-nav\">\r\n \t\t\t\t\t<div class=\"header__logo\">\r\n-\t\t\t\t\t\t<a href=\"\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n+\t\t\t\t\t\t<a href=\"\" class=\"|\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n"
+                },
+                {
+                    "date": 1647435536466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,9 @@\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n \t\t\t\t<div class=\"header__logo-nav\">\r\n \t\t\t\t\t<div class=\"header__logo\">\r\n-\t\t\t\t\t\t<a href=\"\" class=\"|\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n+\t\t\t\t\t\t<a href=\"\" class=\"header__logo--li\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n"
+                },
+                {
+                    "date": 1647435541673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,9 +33,11 @@\n \t\t<div class=\"web-container\">\r\n \t\t\t<header class=\"header\">\r\n \t\t\t\t<div class=\"header__logo-nav\">\r\n \t\t\t\t\t<div class=\"header__logo\">\r\n-\t\t\t\t\t\t<a href=\"\" class=\"header__logo--li\"><img src=\"asset/brand.png\" alt=\"\" /></a>\r\n+\t\t\t\t\t\t<a href=\"\" class=\"header__logo--link\"\r\n+\t\t\t\t\t\t\t><img src=\"asset/brand.png\" alt=\"\"\r\n+\t\t\t\t\t\t/></a>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n"
+                },
+                {
+                    "date": 1647435570202,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -42,8 +42,14 @@\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t</div>\r\n \t\t\t</header>\r\n"
+                },
+                {
+                    "date": 1647435582514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,8 +48,17 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n+\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t</div>\r\n \t\t\t</header>\r\n"
+                },
+                {
+                    "date": 1647435598327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -43,9 +43,11 @@\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n+\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647435607396,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,9 @@\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t\t<span>C</span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647435614229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,9 +44,10 @@\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\t<span>C</span>\r\n+\t\t\t\t\t\t\t\t\t<span>Category</span>\r\n+\t\t\t\t\t\t\t\t\t\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647435817609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,9 +45,11 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Category</span>\r\n-\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons-outlined\">\r\n+\t\t\t\t\t\t\t\t\t\tview_list\r\n+\t\t\t\t\t\t\t\t\t\t</span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647435837222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -45,11 +45,9 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Category</span>\r\n-\t\t\t\t\t\t\t\t\t<span class=\"material-icons-outlined\">\r\n-\t\t\t\t\t\t\t\t\t\tview_list\r\n-\t\t\t\t\t\t\t\t\t\t</span>\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> view_list </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647435850886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> view_list </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Rank</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647435884495,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,9 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> view_list </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Rank</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Rating</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647435891274,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,9 +49,11 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> view_list </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Rating</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n+\t\t\t\t\t\t\t\t\tsoan\r\n+\t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647435897019,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,9 +50,9 @@\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\tsoan\r\n+\t\t\t\t\t\t\t\t\t<span>Rating</span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647435940225,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,8 +51,11 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Rating</span>\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\">\r\n+\t\t\t\t\t\t\t\t\t\tinsights\r\n+\t\t\t\t\t\t\t\t\t\t</span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436037668,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,15 +51,13 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Rating</span>\r\n-\t\t\t\t\t\t\t\t\t<span class=\"material-icons\">\r\n-\t\t\t\t\t\t\t\t\t\tinsights\r\n-\t\t\t\t\t\t\t\t\t\t</span>\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> insights </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">span</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647436046221,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,9 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> insights </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">span</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\"><span>Follow</span></a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647436053349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,9 +55,10 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> insights </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\"><span>Follow</span></a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n+\t\t\t\t\t\t\t\t\t<span>Follow</span></a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647436061943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,11 @@\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\t<span>Follow</span></a>\r\n+\t\t\t\t\t\t\t\t\t<span>Follow</span>\r\n+\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647436109729,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Follow</span>\r\n-\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> insights </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436125256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,9 +57,9 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>Follow</span>\r\n-\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> insights </span>\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> star </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436160347,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -61,9 +61,11 @@\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> star </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n+\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n+\t\t\t\t\t\t\t\t\t<span></span>\r\n+\t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n \t\t\t\t\t\t\t</div>\r\n"
+                },
+                {
+                    "date": 1647436166583,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -62,9 +62,10 @@\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\t<span></span>\r\n+\t\t\t\t\t\t\t\t\t<span>History</span>\r\n+\t\t\t\t\t\t\t\t\t\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436187713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,9 +63,11 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>History</span>\r\n-\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\">\r\n+\t\t\t\t\t\t\t\t\t\thistory\r\n+\t\t\t\t\t\t\t\t\t\t</span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436187860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,11 +63,9 @@\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n \t\t\t\t\t\t\t\t\t<span>History</span>\r\n-\t\t\t\t\t\t\t\t\t<span class=\"material-icons\">\r\n-\t\t\t\t\t\t\t\t\t\thistory\r\n-\t\t\t\t\t\t\t\t\t\t</span>\r\n+\t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> history </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n"
+                },
+                {
+                    "date": 1647436234295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,11 +66,8 @@\n \t\t\t\t\t\t\t\t\t<span>History</span>\r\n \t\t\t\t\t\t\t\t\t<span class=\"material-icons\"> history </span>\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n-\t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n-\t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">Hot</a>\r\n-\t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t</div>\r\n \t\t\t\t\t</div>\r\n \t\t\t\t</div>\r\n \t\t\t</header>\r\n"
+                },
+                {
+                    "date": 1647436453830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -41,9 +41,9 @@\n \t\t\t\t\t<div class=\"header__nav\">\r\n \t\t\t\t\t\t<div class=\"header__nav--container\">\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n-\t\t\t\t\t\t\t\t\t\r\n+\t\t\t\t\t\t\t\t\ts\r\n \t\t\t\t\t\t\t\t</a>\r\n \t\t\t\t\t\t\t</div>\r\n \t\t\t\t\t\t\t<div class=\"header__nav--item\">\r\n \t\t\t\t\t\t\t\t<a href=\"\" class=\"header__nav--link\">\r\n"
+                },
+                {
+                    "date": 1647448273817,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -121,9 +121,9 @@\n \t\t\t\t\t</div>\r\n \t\t\t\t</div>\r\n \t\t\t</header>\r\n \t\t\t<div class=\"content\">\r\n-\t\t\t\t<xml id = \"xml\" src = \"\">\r\n+\t\t\t\t<xml id = \"xml\" src = \"asset/\">\r\n \r\n \t\t\t\t\t</xml>\r\n \t\t\t</div>\r\n \t\t\t<footer class=\"footer\"></footer>\r\n"
+                }
+            ],
+            "date": 1647434936191,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\t<head>\r\n\t\t<meta charset=\"UTF-8\" />\r\n\t\t<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\r\n\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n\t\t<!-- Google Font Roboto -->\r\n\t\t<style>\r\n\t\t\t@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');\r\n\t\t</style>\r\n\t\t<!-- Google Icons -->\r\n\t\t<link\r\n\t\t\thref=\"https://fonts.googleapis.com/icon?family=Material+Icons\"\r\n\t\t\trel=\"stylesheet\"\r\n\t\t/>\r\n\t\t<link\r\n\t\t\thref=\"https://fonts.googleapis.com/icon?family=Material+Icons+Outlined\"\r\n\t\t\trel=\"stylesheet\"\r\n\t\t/>\r\n\t\t<!-- Slick Slider CSS -->\r\n\t\t<link\r\n\t\t\trel=\"stylesheet\"\r\n\t\t\ttype=\"text/css\"\r\n\t\t\thref=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css\"\r\n\t\t/>\r\n\t\t<!-- My CSS -->\r\n\t\t<link rel=\"stylesheet\" href=\"styles/reset.css\" />\r\n\t\t<link rel=\"stylesheet\" href=\"styles/header.css\" />\r\n\t\t<link rel=\"stylesheet\" href=\"styles/main.css\" />\r\n\t\t<title>T_Comic</title>\r\n\t</head>\r\n\t<body>\r\n\t\t<div class=\"web-container\">\r\n\t\t\t<header class=\"header\">\r\n        <div class=\"header__logo-nav\">\r\n          <div class=\"header__logo\">\r\n            <img src=\"asset/brand.png\" alt=\"\">\r\n          </div>\r\n          <div class=\"header__nav\">\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t</div>\r\n        </div>\r\n      </header>\r\n      <div class=\"content\"></div>\r\n      <footer class=\"footer\"></footer>\r\n\t\t</div>\r\n\t</body>\r\n</html>\r\n<!-- Slick Slider JS -->\r\n<script\r\n\ttype=\"text/javascript\"\r\n\tsrc=\"https://code.jquery.com/jquery-1.11.0.min.js\"\r\n></script>\r\n<script\r\n\ttype=\"text/javascript\"\r\n\tsrc=\"https://code.jquery.com/jquery-migrate-1.2.1.min.js\"\r\n></script>\r\n<script\r\n\ttype=\"text/javascript\"\r\n\tsrc=\"https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js\"\r\n></script>\r\n<!-- My JS -->\r\n<script src=\"js/header.js\"></script>\r\n<script src=\"js/main.js\"></script>\r\n"
+        }
+    ]
+}

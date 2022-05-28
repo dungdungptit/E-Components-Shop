@@ -1,0 +1,70 @@
+{
+    "sourceFile": "js/index.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 13,
+            "patches": [
+                {
+                    "date": 1653313606358,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653313619791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \t\tdraggable: true,\r\n \t});\r\n });\r\n $(document).ready(function () {\r\n-\t$('.main__slider').slick({\r\n+\t$(\"main__comic--content\").slick({\r\n \t\tdots: true,\r\n \t\tarrows: false,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n"
+                },
+                {
+                    "date": 1653313625713,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n \t\tdraggable: true,\r\n \t});\r\n });\r\n $(document).ready(function () {\r\n-\t$(\"main__comic--content\").slick({\r\n+\t$('.main__comic--content').slick({\r\n \t\tdots: true,\r\n \t\tarrows: false,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n"
+                },
+                {
+                    "date": 1653313677669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n \t});\r\n });\r\n $(document).ready(function () {\r\n \t$('.main__comic--content').slick({\r\n-\t\tdots: true,\r\n+\t\tdots: false,\r\n \t\tarrows: false,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n"
+                },
+                {
+                    "date": 1653313804737,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,13 +10,14 @@\n \t\t// autoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tdraggable: true,\r\n \t});\r\n+\t\r\n });\r\n $(document).ready(function () {\r\n \t$('.main__comic--content').slick({\r\n \t\tdots: false,\r\n-\t\tarrows: false,\r\n+\t\tarrows: true,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n"
+                },
+                {
+                    "date": 1653313810883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,8 @@\n \t\t// autoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tdraggable: true,\r\n \t});\r\n-\t\r\n-});\r\n-$(document).ready(function () {\r\n \t$('.main__comic--content').slick({\r\n \t\tdots: false,\r\n \t\tarrows: true,\r\n \t\tinfinite: true,\r\n"
+                },
+                {
+                    "date": 1653313902509,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -19,8 +19,9 @@\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n \t\tslidesToScroll: 1,\r\n \t\t// autoplay: true,\r\n+\t\tslidesToShow: 1,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tdraggable: true,\r\n \t});\r\n });\r\n"
+                },
+                {
+                    "date": 1653314153305,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,19 +11,12 @@\n \t\tautoplaySpeed: 2000,\r\n \t\tdraggable: true,\r\n \t});\r\n \t$('.main__comic--content').slick({\r\n-\t\tdots: false,\r\n-\t\tarrows: true,\r\n-\t\tinfinite: true,\r\n-\t\tspeed: 500,\r\n-\t\tfade: true,\r\n-\t\tcssEase: 'linear',\r\n+\t\tslidesToShow: 3,\r\n \t\tslidesToScroll: 1,\r\n-\t\t// autoplay: true,\r\n-\t\tslidesToShow: 1,\r\n+\t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n-\t\tdraggable: true,\r\n \t});\r\n });\r\n \r\n const sliderItems = document.querySelectorAll('.main__slider--item');\r\n"
+                },
+                {
+                    "date": 1653314803420,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,14 +6,14 @@\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n \t\tslidesToScroll: 1,\r\n-\t\t// autoplay: true,\r\n+\t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tdraggable: true,\r\n \t});\r\n \t$('.main__comic--content').slick({\r\n-\t\tslidesToShow: 3,\r\n+\t\tslidesToShow: 5,\r\n \t\tslidesToScroll: 1,\r\n \t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t});\r\n"
+                },
+                {
+                    "date": 1653314810921,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,8 +15,9 @@\n \t\tslidesToShow: 5,\r\n \t\tslidesToScroll: 1,\r\n \t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n+\t\t\r\n \t});\r\n });\r\n \r\n const sliderItems = document.querySelectorAll('.main__slider--item');\r\n"
+                },
+                {
+                    "date": 1653314824361,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,12 @@\n \t\tslidesToShow: 5,\r\n \t\tslidesToScroll: 1,\r\n \t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n-\t\t\r\n+\t\tinfinite: true,\r\n+\t\tspeed: 500,\r\n+\t\tfade: true,\r\n+\t\tcssEase: 'linear',\r\n \t});\r\n });\r\n \r\n const sliderItems = document.querySelectorAll('.main__slider--item');\r\n"
+                },
+                {
+                    "date": 1653314832826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -18,9 +18,9 @@\n \t\tautoplaySpeed: 2000,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n-\t\tcssEase: 'linear',\r\n+\t\t// cssEase: 'linear',\r\n \t});\r\n });\r\n \r\n const sliderItems = document.querySelectorAll('.main__slider--item');\r\n"
+                },
+                {
+                    "date": 1653314840438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -17,9 +17,9 @@\n \t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n-\t\tfade: true,\r\n+\t\t// fade: true,\r\n \t\t// cssEase: 'linear',\r\n \t});\r\n });\r\n \r\n"
+                },
+                {
+                    "date": 1653314853054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,11 +16,8 @@\n \t\tslidesToScroll: 1,\r\n \t\tautoplay: true,\r\n \t\tautoplaySpeed: 2000,\r\n \t\tinfinite: true,\r\n-\t\tspeed: 500,\r\n-\t\t// fade: true,\r\n-\t\t// cssEase: 'linear',\r\n \t});\r\n });\r\n \r\n const sliderItems = document.querySelectorAll('.main__slider--item');\r\n"
+                }
+            ],
+            "date": 1653313606358,
+            "name": "Commit-0",
+            "content": "$(document).ready(function () {\r\n\t$('.main__slider').slick({\r\n\t\tdots: true,\r\n\t\tarrows: false,\r\n\t\tinfinite: true,\r\n\t\tspeed: 500,\r\n\t\tfade: true,\r\n\t\tcssEase: 'linear',\r\n\t\tslidesToScroll: 1,\r\n\t\t// autoplay: true,\r\n\t\tautoplaySpeed: 2000,\r\n\t\tdraggable: true,\r\n\t});\r\n});\r\n$(document).ready(function () {\r\n\t$('.main__slider').slick({\r\n\t\tdots: true,\r\n\t\tarrows: false,\r\n\t\tinfinite: true,\r\n\t\tspeed: 500,\r\n\t\tfade: true,\r\n\t\tcssEase: 'linear',\r\n\t\tslidesToScroll: 1,\r\n\t\t// autoplay: true,\r\n\t\tautoplaySpeed: 2000,\r\n\t\tdraggable: true,\r\n\t});\r\n});\r\n\r\nconst sliderItems = document.querySelectorAll('.main__slider--item');\r\nsliderItems.forEach(function (item, i) {\r\n\titem.style.background = `url(\"../asset/slider${\r\n\t\ti + 1\r\n\t}.png\") no-repeat center center / cover`;\r\n\titem.innerHTML = `\r\n\t<div class=\"main__slider--item__text\">\r\n\t\t<img src=\"./asset/slider${i + 1}text.png\" alt=\"\">\r\n\t</div>\r\n\t<button class = \"main__slider--item__butt\">Buy it now!!!</button>\r\n\t`;\r\n});\r\n\r\nsetTimeout(function () {\r\n\tconst sliderButts = $('.slick-dots>li>button');\r\n\tconsole.log(sliderButts);\r\n\tsliderButts.each(function (i, item) {\r\n\t\titem.style.background = `url(\"../asset/slider${\r\n\t\t\ti + 1\r\n\t\t}.png\") no-repeat center center / cover`;\r\n\t\titem.innerText = '';\r\n\t});\r\n}, 100);\r\n"
+        }
+    ]
+}

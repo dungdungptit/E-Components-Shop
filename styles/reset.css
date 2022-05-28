@@ -1,0 +1,347 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol,
+ul {
+	list-style: none;
+}
+blockquote,
+q {
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html,
+body {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+}
+body {
+	overflow: hidden scroll;
+}
+:root {
+	--primary-color: #141414;
+	--header-background: #00000090;
+	--header-background-scroll: #181818e6;
+	--text-white: #ffffff;
+	--text-grey: #808080;
+	--red: #ea3c2a;
+	--orange: #ea6016;
+	--light-orange: #ff8800;
+	--primary-button-background: linear-gradient(
+		90deg,
+		var(--light-orange),
+		var(--red) 50%,
+		var(--light-orange)
+	);
+	--primary-button-shadow: 0 0 14px -1px var(--light-orange);
+	--card-shadow: 0 0 14px -1px var(--light-orange);
+	--link-hover-color: var(--orange);
+	--box-shadow-blue: 0 4px 8px 0 var(#09ccc74d);
+	--search-background: #ffffff1a;
+	--heading-before-background: linear-gradient(
+		180deg,
+		var(--light-orange),
+		var(--red)
+	);
+	--user-info-back-ground: #474646;
+	--user-info-hover-item: #b3704a40;
+	--user-info-left-border-active: var(--orange);
+}
+.padding-side-100 {
+	padding: 0 100px;
+}
+a {
+	text-decoration: none;
+	color: var(--text-white);
+}
+.padding-top-bottom-100 {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.btn{
+	display: inline-block;
+	padding: 8px 20px;
+	border: 1px solid;
+	border-radius: 5px;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, .1);
+	font-size: 16px;
+	color: #fff !important;
+	cursor: pointer;
+	transition: all .2s linear;
+}
+
+.btn:hover{
+	color: #141414 !important;
+	background-color: #fff;
+}
+
+.btn-add{
+	background-color: #4CAF50;
+}
+
+.btn-add:hover{
+	border: 1px solid #4CAF50;
+}
+
+.btn-cancel,
+.btn-delete{
+	background-color: #f44336;
+}
+
+.btn-cancel:hover,
+.btn-delete:hover{
+	border: 1px solid #f44336;
+}
+
+.btn-edit{
+	background-color: #ff8800;
+}
+
+.btn-edit:hover{
+	border: 1px solid #ff8800;
+}
+
+.yellow{
+	color: #ffc107;
+}
+
+.green{
+	color: #198754;
+}
+
+.red{
+	color: #dc3545;
+}
+
+.orange{
+	color: #fd7e14;
+}
+
+.purple{
+	color: #6f42c1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query screen */
+
+@media screen and (max-width: 992px){
+	.main__comic--content__item--desc__heading{
+		display: inline-block !important;
+	}
+
+	.main__sale-off{
+		flex-wrap: wrap;
+		gap: 40px;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+    .main__comic{
+		padding: 50px 0;
+	}
+
+	.main__content .slick-dots{
+		display: none !important;
+	}
+
+	.main__slider{
+		min-height: 80vh !important;
+		max-height: 80vh !important;
+	}
+
+	.main__slider--item__butt{
+		top: calc(50% + 60px) !important;
+		left: 50% !important;
+		transform: translate(-50%, -50%);
+	}
+
+	.main__slider--item__text{
+		top: calc(50% - 60px) !important;
+		left: 50% !important;
+		transform: translate(-50%, -50%);
+	}
+
+	.main__comic--content__item--action{
+		display: none !important;
+	}
+
+	.main__comic--content__item--desc__heading{
+		font-size: 16px !important;
+	}
+
+	.main__comic--heading{
+		font-size: 20px !important;
+	}
+
+	.footer-container{
+		padding: 0 20px !important;
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
+
+@media screen and (max-width: 450px){
+    .dashboard-container__body--statistical--item{
+        width: 100%;
+        justify-content: start;
+    }
+
+	.main__comic--content__item--action{
+		display: block !important;
+	}
+
+	.sale-off-text{
+		font-size: 22px !important;
+	}
+
+	.sale-off-percent{
+		font-size: 100px !important;
+	}
+
+	.input-sale{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+	.input-sale input{
+		font-size: 16px !important;
+	}
+}

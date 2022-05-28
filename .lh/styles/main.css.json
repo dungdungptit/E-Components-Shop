@@ -1,0 +1,82 @@
+{
+    "sourceFile": "styles/main.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 16,
+            "patches": [
+                {
+                    "date": 1647435182307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647435189005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .content {\r\n-  min\r\n-}\n\\ No newline at end of file\n+\tmin-width: 100vh;\r\n+}\r\n"
+                },
+                {
+                    "date": 1647435194749,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,4 @@\n .content {\r\n-\tmin-width: 100vh;\r\n+\tmin-height: 100vh;\r\n+\r\n }\r\n"
+                },
+                {
+                    "date": 1647435200143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .content {\r\n \tmin-height: 100vh;\r\n-\r\n+  background-color: ;\r\n }\r\n"
+                },
+                {
+                    "date": 1647435215393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .content {\r\n \tmin-height: 100vh;\r\n-  background-color: ;\r\n+  background-color: var(--primary-color);\r\n }\r\n"
+                },
+                {
+                    "date": 1647450748813,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .content {\r\n \tmin-height: 100vh;\r\n-  background-color: var(--primary-color);\r\n+  /* background-color: var(--primary-color); */\r\n }\r\n"
+                },
+                {
+                    "date": 1647451716309,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,4 @@\n .content {\r\n \tmin-height: 100vh;\r\n-  /* background-color: var(--primary-color); */\r\n+  background-color: var(--primary-color);\r\n }\r\n"
+                },
+                {
+                    "date": 1647531340922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n .content {\r\n \tmin-height: 100vh;\r\n   background-color: var(--primary-color);\r\n }\r\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531346128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,7 @@\n .content {\r\n \tmin-height: 100vh;\r\n   background-color: var(--primary-color);\r\n }\r\n-.\n\\ No newline at end of file\n+.main__slider {\r\n+  width: ;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531358005,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,6 +2,6 @@\n \tmin-height: 100vh;\r\n   background-color: var(--primary-color);\r\n }\r\n .main__slider {\r\n-  width: ;\r\n+  max-width: 100vw;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531365092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,5 +3,6 @@\n   background-color: var(--primary-color);\r\n }\r\n .main__slider {\r\n   max-width: 100vw;\r\n+  min-width: 100vw;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531374920,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,5 +4,6 @@\n }\r\n .main__slider {\r\n   max-width: 100vw;\r\n   min-width: 100vw;\r\n-}\n\\ No newline at end of file\n+}\r\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531385279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,5 +5,7 @@\n .main__slider {\r\n   max-width: 100vw;\r\n   min-width: 100vw;\r\n }\r\n-.\n\\ No newline at end of file\n+.main__slider--item img {\r\n+  \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531392750,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,7 +5,10 @@\n .main__slider {\r\n   max-width: 100vw;\r\n   min-width: 100vw;\r\n }\r\n+.main__slider--item {\r\n+  w100\r\n+}\r\n .main__slider--item img {\r\n-  \r\n+\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531398913,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,9 +6,10 @@\n   max-width: 100vw;\r\n   min-width: 100vw;\r\n }\r\n .main__slider--item {\r\n-  w100\r\n+  width: 100%;\r\n+  height: 100%;\r\n }\r\n .main__slider--item img {\r\n \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531406545,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,8 +5,9 @@\n .main__slider {\r\n   max-width: 100vw;\r\n   min-width: 100vw;\r\n   max-height: 100vh;\r\n+  \r\n }\r\n .main__slider--item {\r\n   width: 100%;\r\n   height: 100%;\r\n"
+                },
+                {
+                    "date": 1647531511295,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,6 +13,6 @@\n \twidth: 100%;\r\n \theight: 100%;\r\n }\r\n .main__slider--item img {\r\n-  w\r\n+  w1\r\n }\r\n"
+                }
+            ],
+            "date": 1647435182307,
+            "name": "Commit-0",
+            "content": ".content {\r\n  min\r\n}"
+        }
+    ]
+}

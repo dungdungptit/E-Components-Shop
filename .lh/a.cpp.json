@@ -1,0 +1,26 @@
+{
+    "sourceFile": "a.cpp",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1653659470564,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653659494018,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -33,5 +33,12 @@\n     string s;\r\n     cin >> s;\r\n     cout << ktra(s);\r\n   }\r\n-}\n\\ No newline at end of file\n+}\r\n+}\r\n+/*\r\n+3\r\n+((a+b))\r\n+(a + (b)/c)\r\n+(a + b*(c-d))\r\n+*/\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1653659524858,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n int main()\r\n {\r\n   int t;\r\n   cin >> t;\r\n-  cin.\r\n+  cin.i\r\n   while (t--)\r\n   {\r\n     string s;\r\n     cin >> s;\r\n"
+                }
+            ],
+            "date": 1653659470564,
+            "name": "Commit-0",
+            "content": "#include <iostream>\r\n#include <string>\r\n#include <stack>\r\nusing namespace std;\r\nstring ktra(string s)\r\n{\r\n  stack<char> X;\r\n  for (auto x : s)\r\n  {\r\n    if (x == ')')\r\n    {\r\n      bool check = true;\r\n      while (X.top() != '(')\r\n      {\r\n        if (X.top() == '*' || X.top() == '/' || X.top() == '+' || X.top() == '-')\r\n          check = false;\r\n        X.pop();\r\n      }\r\n      if (check)\r\n        return \"Yes\\n\";\r\n    }\r\n    else\r\n      X.push(x);\r\n  }\r\n  return \"No\\n\";\r\n}\r\nint main()\r\n{\r\n  int t;\r\n  cin >> t;\r\n  while (t--)\r\n  {\r\n    string s;\r\n    cin >> s;\r\n    cout << ktra(s);\r\n  }\r\n}"
+        }
+    ]
+}

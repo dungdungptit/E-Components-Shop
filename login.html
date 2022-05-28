@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Google Font Roboto -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	</style>
+	<!-- Google Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+	<!-- Boxicon -->
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles/reset.css" />
+	<link rel="stylesheet" href="styles/scroll.css" />
+	<link rel="stylesheet" href="styles/header.css" />
+	<link rel="stylesheet" href="styles/login.css" />
+	<title>T_Comic</title>
+	<link rel="icon" href="asset/logopink.png" />
+</head>
+
+<body>
+	<div class="web-container">
+		<header class="header">
+			<div class="header__logo-nav">
+				<div class="header__logo">
+					<a href="index.html" class="header__logo--link"><img src="asset/brand.png" alt="" /></a>
+				</div>
+				<div class="header__nav">
+					<div class="header__nav--container">
+						<div class="header__nav--item">
+							<a href="list.html" class="header__nav--link">
+								<span>Product</span>
+								<span class="material-icons header__nav--link__icon">
+									flare
+								</span>
+							</a>
+						</div>
+						<div class="header__nav--item">
+							<a href="category.html" class="header__nav--link">
+								<span>Category</span>
+								<span class="material-icons header__nav--link__icon">
+									view_list
+								</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__user-search">
+				<div class="header__search">
+					<div class="header__search--container">
+						<input type="text" class="header__search--input" placeholder="Search" />
+						<span class="material-icons"> search </span>
+					</div>
+				</div>
+				<div class="header__user">
+					<div class="header__user--img">
+						<img src="asset/user.jpg" alt="" />
+					</div>
+					<div class="header__user--info">
+						<div
+							class="header__user--info__item header__user--info__item--active header__user--info__heading">
+							<a href="profile.html" class="header__user--info__link">
+								<div class="header__user--info__avatar">
+									<img src="asset/user.jpg" alt="" />
+								</div>
+								<div class="header__user--info__desc">
+									<span>User ID: tungSfer512</span>
+									<span>Join: 5 Dec 2022</span>
+								</div>
+								<div class="header__user--info__edit">
+									<span class="material-icons-outlined"> edit </span>
+								</div>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="follow.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									bookmark
+								</span>
+								<span>Follow</span>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="ordered.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									history
+								</span>
+								<span>Order History</span>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="wishlist.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									favorite_border
+								</span>
+								<span>Wishlist</span>
+							</a>
+						</div>
+						<div class="header__user--info__item header__user--info__footer">
+							<a href="login.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									logout
+								</span>
+								<span>Logout</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="content">
+
+			<div class="login-container">
+				<h1 class="login__heading">Log In</h1>
+				<p class="login__desc">You can sign in with T_Comic account.</p>
+				<form action="index.html" method="get" id="form-login">
+					<div class="login__input">
+						<input type="text" name="" id="username" placeholder="Enter your ID or Email" />
+					</div>
+					<div class="login__input">
+						<input type="password" name="" id="password" placeholder="Password" />
+					</div>
+					<button type="submit" class="login__button">Log In</button>
+				</form>
+				<div class="forgot-pass">
+					<a href="forgot-pass.html" class="forgot-pass__link">Forgot Password?</a>
+				</div>
+				<div class="seperate">
+					<div class="separate__line"></div>
+					<div class="separate__text">or continue with</div>
+					<div class="separate__line"></div>
+				</div>
+				<div class="other-login">
+					<div class="other-login__item">
+						<i class="bx bxl-facebook-circle"></i>
+					</div>
+					<div class="other-login__item">
+						<i class="bx bxl-google"></i>
+					</div>
+					<div class="other-login__item">
+						<i class="bx bxl-twitter"></i>
+					</div>
+				</div>
+				<div class="qr-code">
+					<div class="qr-code-logo">
+						<img src="asset/qrcode.png" alt="" />
+					</div>
+					<div class="qr-code-desc">
+						<p>Quick login with QR code!</p>
+					</div>
+				</div>
+				<div class="dont-have-acc">
+					<p>Don't have account?</p>
+					<a href="register.html">Register</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+<!-- Slick Slider JS -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- My JS -->
+<script src="js/header.js"></script>
+<script>
+	const formLogin = document.querySelector('#form-login');
+	const username = document.querySelector('#username');
+	const password = document.querySelector('#password');
+	formLogin.addEventListener('submit', function(e) {
+		e.preventDefault();
+		if (username.value === '' || password.value === '') {
+			alert('Please fill in all the fields');
+		} else {
+			if(username.value === 'admin' && password.value === '12345') {
+				window.location.href = 'admin_page.html';
+			}
+			else if(username.value === 'user' && password.value === '12345') {
+				window.location.href = 'index.html';
+			}
+			else {
+				alert('Wrong username or password');
+			}
+		}
+	});
+</script>

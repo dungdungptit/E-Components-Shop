@@ -1,0 +1,144 @@
+<header class="header">
+    <div class="header__logo-nav">
+        <div class="header__logo">
+            <a href="admin_page.html" class="header__logo--link">
+                <img src="asset/brand.png" alt="" />
+            </a>
+        </div>
+        <div class="header__nav">
+            <div class="header__nav--container">
+                <div class="header__nav--item">
+                    <a href="admin_page.html" class="header__nav--link">
+                        <span>Dashboard</span>
+                    </a>
+                </div>
+                <div class="header__nav--item">
+                    <a href="admin_product.html" class="header__nav--link">
+                        <span>Product</span>
+                    </a>
+                </div>
+                <div class="header__nav--item">
+                    <a href="admin_category.html" class="header__nav--link">
+                        <span>Category</span>
+                    </a>
+                </div>
+                <div class="header__nav--item">
+                    <a href="admin_order.html" class="header__nav--link">
+                        <span>Order</span>
+                    </a>
+                </div>
+                <div class="header__nav--item">
+                    <a href="admin_user.html" class="header__nav--link">
+                        <span>User</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header__user-search">
+        <div class="header__search">
+            <div class="header__search--container">
+                <input type="text" class="header__search--input" placeholder="Search" />
+                <span class="material-icons"> search </span>
+            </div>
+        </div>
+        <div class="header__user">
+            <div class="header__user--img">
+                <img src="asset/user.jpg" alt="" />
+            </div>
+            <div class="header__user--info">
+                <div class="header__user--info__item header__user--info__item--active header__user--info__heading">
+                    <a href="profile.html" class="header__user--info__link">
+                        <div class="header__user--info__avatar">
+                            <img src="asset/user.jpg" alt="" />
+                        </div>
+                        <div class="header__user--info__desc">
+                            <span>User ID: tungSfer512</span>
+                            <span>Join: 5 Dec 2022</span>
+                        </div>
+                        <div class="header__user--info__edit">
+                            <span class="material-icons-outlined"> edit </span>
+                        </div>
+                    </a>
+                </div>
+                <div class="header__user--info__item">
+                    <a href="setting.html" class="header__user--info__link">
+                        <span class="material-icons header__user--info__icon">
+                            settings
+                        </span>
+                        <span>Setting</span>
+                    </a>
+                </div>
+                <div class="header__user--info__item header__user--info__footer">
+                    <a href="login.html" class="header__user--info__link">
+                        <span class="material-icons header__user--info__icon">
+                            logout
+                        </span>
+                        <span>Logout</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="header__nav-small-drop">
+            <span class="material-icons">
+                menu
+            </span>
+        </div>
+    </div>
+</header>
+<div class="header__nav-small">
+    <div class="header__nav-small-heading">
+        <span class="material-icons">
+            close
+        </span>
+    </div>
+    <div class="header__nav-small--container">
+        <div class="header__nav-small--item">
+            <a href="list.html" class="header__nav-small--link">
+                <span>Product</span>
+                <span class="material-icons header__nav-small--link__icon">
+                    view_list
+                </span>
+            </a>
+        </div>
+        <div class="header__nav-small--item">
+            <a href="category.html" class="header__nav-small--link">
+                <span>News</span>
+                <span class="material-icons header__nav-small--link__icon">
+                    flare
+                </span>
+            </a>
+        </div>
+        <div class="header__nav-small--item">
+            <a href="category.html" class="header__nav-small--link">
+                <span>About us</span>
+                <span class="material-icons header__nav-small--link__icon">
+                    info
+                </span>
+            </a>
+        </div>
+        <div class="header__nav-small--item">
+            <a href="category.html" class="header__nav-small--link">
+                <span>Contact</span>
+                <span class="material-icons header__nav-small--link__icon">
+                    contacts
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous">
+	</script>
+
+<script>
+	$(function () {
+		$(".header__nav-small-drop").click(function () {
+            $(".header__nav-small").fadeToggle("slow");
+        });
+        $(".header__nav-small-heading").click(function () {
+            $(".header__nav-small").fadeToggle("slow");
+        });
+	});
+</script>

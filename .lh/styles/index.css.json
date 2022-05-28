@@ -1,0 +1,126 @@
+{
+    "sourceFile": "styles/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 27,
+            "patches": [
+                {
+                    "date": 1647484518449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647484524164,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  BAC\r\n+  background-image: url('');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484529901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  background-image: url('');\r\n+  background-image: url(';\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484536489,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  background-image: url(';\r\n+  background-image: url(''');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484542837,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  background-image: url(''');\r\n+  background-image: url('asest');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484551092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  background-image: url('asest');\r\n+  background-image: url('../asset/');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484557680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,3 @@\n .web-container {\r\n-  background-image: url('../asset/');\r\n+  background-image: url('../asset/wall.png');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484566693,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,3 +1,5 @@\n .web-container {\r\n   background-image: url('../asset/wall.png');\r\n+  background-repeat: no-repeat;\r\n+  back\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484574851,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,6 @@\n .web-container {\r\n   background-image: url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n+  background-position: center;\r\n   back\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484616015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,7 @@\n .web-container {\r\n+  \r\n   background-image: url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n-  back\r\n+  background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484625560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n .web-container {\r\n-  \r\n+  min-height: 100vh;\r\n   background-image: url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n"
+                },
+                {
+                    "date": 1647484641781,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: url('../asset/wall.png');\r\n+  background-image:  url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484651206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image:  url('../asset/wall.png');\r\n+  background-image: g url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484660879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: g url('../asset/wall.png');\r\n+  background-image: background-image: linear-gradient( to right, , ); url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484666712,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: background-image: linear-gradient( to right, , ); url('../asset/wall.png');\r\n+  background-image: background-image: linear-gradient( to right,black , ); url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484677648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: background-image: linear-gradient( to right,black , ); url('../asset/wall.png');\r\n+  background-image: background-image: linear-gradient( to right,black , black); url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484687189,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: background-image: linear-gradient( to right,black , black); url('../asset/wall.png');\r\n+  background-image: background-image: linear-gradient( to right,black , black), url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484694823,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n   min-height: 100vh;\r\n-  background-image: background-image: linear-gradient( to right,black , black), url('../asset/wall.png');\r\n+  background-image:linear-gradient( to right,black , black), url('../asset/wall.png');\r\n   background-repeat: no-repeat;\r\n   background-position: center;\r\n   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484703675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n .web-container {\r\n-  min-height: 100vh;\r\n-  background-image:linear-gradient( to right,black , black), url('../asset/wall.png');\r\n-  background-repeat: no-repeat;\r\n-  background-position: center;\r\n-  background-size: cover;\r\n-}\n\\ No newline at end of file\n+\tmin-height: 100vh;\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.308), black),\r\n+\t\turl('../asset/wall.png');\r\n+\tbackground-repeat: no-repeat;\r\n+\tbackground-position: center;\r\n+\tbackground-size: cover;\r\n+}\r\n"
+                },
+                {
+                    "date": 1647484715980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.308), black),\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), black),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n \tbackground-position: center;\r\n \tbackground-size: cover;\r\n"
+                },
+                {
+                    "date": 1647484725520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), black),\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.356)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n \tbackground-position: center;\r\n \tbackground-size: cover;\r\n"
+                },
+                {
+                    "date": 1647484732753,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.356)),\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n \tbackground-position: center;\r\n \tbackground-size: cover;\r\n"
+                },
+                {
+                    "date": 1647484740054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.5)),\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n \tbackground-position: center;\r\n \tbackground-size: cover;\r\n"
+                },
+                {
+                    "date": 1647484752321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)),\r\n+\tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n-\tbackground-position: center;\r\n+\tbackground-position: top center;\r\n \tbackground-size: cover;\r\n }\r\n"
+                },
+                {
+                    "date": 1647484759310,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,7 +2,7 @@\n \tmin-height: 100vh;\r\n \tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n-\tbackground-position: top center;\r\n+\tbackground-position:center;\r\n \tbackground-size: cover;\r\n }\r\n"
+                },
+                {
+                    "date": 1647484894914,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -5,4 +5,5 @@\n \tbackground-repeat: no-repeat;\r\n \tbackground-position:center;\r\n \tbackground-size: cover;\r\n }\r\n+.\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484903349,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -6,6 +6,6 @@\n \tbackground-position:center;\r\n \tbackground-size: cover;\r\n }\r\n .content {\r\n-  width: 100%;h100\r\n+  width: 100%;h100%\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647484920379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n .web-container {\r\n \tmin-height: 100vh;\r\n-  w100\r\n+  w100vw\r\n \tbackground-image: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),\r\n \t\turl('../asset/wall.png');\r\n \tbackground-repeat: no-repeat;\r\n \tbackground-position:center;\r\n"
+                }
+            ],
+            "date": 1647484518449,
+            "name": "Commit-0",
+            "content": ".web-container {\r\n  BAC\r\n}"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "sourceFile": "styles/list.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1653326820090,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1653326875327,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,21 @@\n+.main__body {\r\n+  z-index: 1000;\r\n+  bottom: 150px;\r\n+  left: 0;\r\n+  right: 0;\r\n+  color: #000000 !important;\r\n+  /* background-color: #000000c8; */\r\n+}\r\n \r\n+.main__body a {\r\n+  color: #000000 !important;\r\n+}\r\n \r\n+.main__comic {\r\n+  position: relative;\r\n+}\r\n+\r\n .main__comic--content__item {\r\n   display: inline-block;\r\n   position: relative;\r\n   height: 100%;\r\n"
+                },
+                {
+                    "date": 1653327094006,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,9 +3,9 @@\n   bottom: 150px;\r\n   left: 0;\r\n   right: 0;\r\n   color: #000000 !important;\r\n-  padding top: ;\r\n+  padding ;\r\n }\r\n \r\n .main__body a {\r\n   color: #000000 !important;\r\n"
+                }
+            ],
+            "date": 1653326820090,
+            "name": "Commit-0",
+            "content": ".main__comic--content__item {\r\n  display: inline-block;\r\n  position: relative;\r\n  height: 100%;\r\n  width: 200px;\r\n  padding: 20px;\r\n}\r\n\r\n.main__comic--content__item--img {\r\n  height: 100%;\r\n  width: 100%;\r\n  position: relative;\r\n  display: inline-block;\r\n}\r\n\r\n.main__comic--content__item--img img {\r\n  height: 100%;\r\n  width: 100%;\r\n  object-fit: cover;\r\n  object-position: center;\r\n}\r\n\r\n.main__comic--content__item--img::after {\r\n  content: '';\r\n  height: 100%;\r\n  width: 100%;\r\n  position: absolute;\r\n  top: 0;\r\n  left: 0;\r\n  z-index: 1000;\r\n  transition: background-color 0.3s ease;\r\n}\r\n\r\n.main__comic--content__item--action {\r\n  position: absolute;\r\n  top: 40%;\r\n  left: 20px;\r\n  right: 20px;\r\n  z-index: 10000;\r\n\r\n}\r\n\r\n.main__comic--content__item--action span {\r\n  font-size: 30px;\r\n  z-index: 10000;\r\n  background: var(--primary-button-background);\r\n  padding: 10px;\r\n  border-radius: 50px;\r\n  color: var(--text-white) !important;\r\n  cursor: pointer;\r\n}\r\n\r\n.main__comic--content__item--action .add-to-cart {\r\n  float: left;\r\n  transition: all 0.3s ease;\r\n  visibility: hidden;\r\n  opacity: 0;\r\n}\r\n\r\n.main__comic--content__item--action .add-to-wishlist {\r\n  float: right;\r\n  transition: all 0.3s ease;\r\n  visibility: hidden;\r\n  opacity: 0;\r\n}\r\n\r\n.main__comic--content__item:hover .main__comic--content__item--img::after {\r\n  background-color: #00000062;\r\n  z-index: 100;\r\n}\r\n\r\n.main__comic--content__item:hover .add-to-cart {\r\n  padding-left: 30px;\r\n  visibility: visible;\r\n  opacity: 1;\r\n}\r\n\r\n.main__comic--content__item:hover .add-to-wishlist {\r\n  padding-right: 30px;\r\n  visibility: visible;\r\n  opacity: 1;\r\n}\r\n\r\n.main__comic--content__item--desc__heading {\r\n  display: -webkit-box;\r\n  -webkit-line-clamp: 1;\r\n  -webkit-box-orient: vertical;\r\n  overflow: hidden;\r\n  text-overflow: ellipsis;\r\n  word-break: break-word;\r\n  font-size: 24px;\r\n  padding: 10px 0;\r\n}\r\n\r\n.main__comic--content__item--desc__content {\r\n  font-size: 15px;\r\n  padding: 0 12px;\r\n}\r\n\r\n.new-price {\r\n  color: var(--light-orange);\r\n}\r\n\r\n.old-price {\r\n  font-size: 12px;\r\n  color: #6d6d6d;\r\n  text-decoration: line-through;\r\n  padding-left: 8px;\r\n}"
+        }
+    ]
+}

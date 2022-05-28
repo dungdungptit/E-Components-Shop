@@ -1,0 +1,114 @@
+{
+    "sourceFile": "styles/reset.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 24,
+            "patches": [
+                {
+                    "date": 1647435132771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647435140710,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -164,6 +164,7 @@\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n+\ttext-decoration: none;\r\n \t\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435146438,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,6 +165,6 @@\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n \ttext-decoration: none;\r\n-\t\r\n+\tcolor: var(--);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647435156249,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -165,6 +165,6 @@\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n \ttext-decoration: none;\r\n-\tcolor: var(--);\r\n+\tcolor: var(--text-color);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647444824742,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -137,9 +137,9 @@\n :root {\r\n \t--primary-color: #141414;\r\n \t--header-background: #00000000;\r\n \t--header-background-scroll: #181818e6;\r\n-\t--text-color: #ffffff;\r\n+\t--text-white: #ffffff;\r\n \t--red: #ea3c2a;\r\n \t--orange: #ea6016;\r\n \t--light-orange: #ff8800;\r\n \t--primary-button-background: linear-gradient(\r\n@@ -165,6 +165,6 @@\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n \ttext-decoration: none;\r\n-\tcolor: var(--text-color);\r\n+\tcolor: var(--text-white);\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647445627656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #403f3f;\r\n+\t-\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445646120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,10 +158,10 @@\n \t\tvar(--light-orange),\r\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n-\t--user-info-hover-item: #403f3f;\r\n-\t-\r\n+\t--user-info-hover-item: rgb(179 112 74 / 25%);\r\n+\t--user-info\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445653024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,10 +158,9 @@\n \t\tvar(--light-orange),\r\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n-\t--user-info-hover-item: rgb(179 112 74 / 25%);\r\n-\t--user-info\r\n+\t--user-info-hover-item: #b3704a40;\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445742838,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,8 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n+\t\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445783695,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t\r\n+\t--uer\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445789782,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--uer\r\n+\t--user-info\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445796720,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info\r\n+\t--user-info-left\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445803536,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info-left\r\n+\t--user-info-left-border\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647445811571,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -159,9 +159,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info-left-border\r\n+\t--user-info-left-border-active: var(var(--orange))\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647447344434,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,8 +138,9 @@\n \t--primary-color: #141414;\r\n \t--header-background: #00000000;\r\n \t--header-background-scroll: #181818e6;\r\n \t--text-white: #ffffff;\r\n+\t--TEXT-GREY\r\n \t--red: #ea3c2a;\r\n \t--orange: #ea6016;\r\n \t--light-orange: #ff8800;\r\n \t--primary-button-background: linear-gradient(\r\n@@ -159,13 +160,13 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info-left-border-active: var(var(--orange))\r\n+\t--user-info-left-border-active: var(var(--orange));\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n \ttext-decoration: none;\r\n \tcolor: var(--text-white);\r\n\\ No newline at end of file\n-}\n+}\r\n"
+                },
+                {
+                    "date": 1647447354886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n \t--primary-color: #141414;\r\n \t--header-background: #00000000;\r\n \t--header-background-scroll: #181818e6;\r\n \t--text-white: #ffffff;\r\n-\t--TEXT-GREY\r\n+\t--text-grey: \r\n \t--red: #ea3c2a;\r\n \t--orange: #ea6016;\r\n \t--light-orange: #ff8800;\r\n \t--primary-button-background: linear-gradient(\r\n@@ -168,5 +168,5 @@\n }\r\n a {\r\n \ttext-decoration: none;\r\n \tcolor: var(--text-white);\r\n-}\n\\ No newline at end of file\n+}\r\n"
+                },
+                {
+                    "date": 1647447360354,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -138,9 +138,9 @@\n \t--primary-color: #141414;\r\n \t--header-background: #00000000;\r\n \t--header-background-scroll: #181818e6;\r\n \t--text-white: #ffffff;\r\n-\t--text-grey: \r\n+\t--text-grey: #808080;\r\n \t--red: #ea3c2a;\r\n \t--orange: #ea6016;\r\n \t--light-orange: #ff8800;\r\n \t--primary-button-background: linear-gradient(\r\n"
+                },
+                {
+                    "date": 1647448908774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,9 +160,9 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info-left-border-active: var(var(--orange));\r\n+\t--user-info-left-border-active: --;\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1647449537195,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -160,13 +160,16 @@\n \t\tvar(--red)\r\n \t);\r\n \t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n-\t--user-info-left-border-active: --;\r\n+\t--user-info-left-border-active: var(--orange);\r\n }\r\n .padding-side-100 {\r\n \tpadding: 0 10rem;\r\n }\r\n a {\r\n \ttext-decoration: none;\r\n \tcolor: var(--text-white);\r\n }\r\n+.padding-side-20 {\r\n+\tpadding\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647449542738,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -170,6 +170,6 @@\n \ttext-decoration: none;\r\n \tcolor: var(--text-white);\r\n }\r\n .padding-side-20 {\r\n-\tpadding\r\n+\tpadding: 0 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647450417403,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -168,8 +168,5 @@\n }\r\n a {\r\n \ttext-decoration: none;\r\n \tcolor: var(--text-white);\r\n-}\r\n-.padding-side-20 {\r\n-\tpadding: 0 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647456113334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n \t\t180deg,\r\n \t\tvar(--light-orange),\r\n \t\tvar(--red)\r\n \t);\r\n-\t--user-info-back-ground: #353434;\r\n+\t--user-info-back-ground: #3534348f;\r\n \t--user-info-hover-item: #b3704a40;\r\n \t--user-info-left-border-active: var(--orange);\r\n }\r\n .padding-side-100 {\r\n"
+                },
+                {
+                    "date": 1647456121233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -158,9 +158,9 @@\n \t\t180deg,\r\n \t\tvar(--light-orange),\r\n \t\tvar(--red)\r\n \t);\r\n-\t--user-info-back-ground: #3534348f;\r\n+\t--user-info-back-ground: #353434;\r\n \t--user-info-hover-item: #b3704a40;\r\n \t--user-info-left-border-active: var(--orange);\r\n }\r\n .padding-side-100 {\r\n"
+                },
+                {
+                    "date": 1647483090338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n \t);\r\n \t--primary-button-shadow: 0 0 14px -1px var(--light-orange);\r\n \t--card-shadow: 0 0 14px -1px var(--light-orange);\r\n \t--link-hover-color: var(--orange);\r\n-\t--box-shadow-blue: 0 4px 8px 0 var(hwb(178 4% 20% / 0.302));\r\n+\t--box-shadow-blue: 0 4px 8px 0 var(rgba(9, 204, 199, 0.302));\r\n \t--search-background: #ffffff1a;\r\n \t--heading-before-background: linear-gradient(\r\n \t\t180deg,\r\n \t\tvar(--light-orange),\r\n"
+                },
+                {
+                    "date": 1647531463852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -133,9 +133,9 @@\n \tbox-sizing: border-box;\r\n \tfont-family: 'Roboto', sans-serif;\r\n \tfont-size: 62.5%;\r\n }\r\n-\r\n+b\r\n :root {\r\n \t--primary-color: #141414;\r\n \t--header-background: #00000000;\r\n \t--header-background-scroll: #181818e6;\r\n"
+                }
+            ],
+            "date": 1647435132771,
+            "name": "Commit-0",
+            "content": "/* http://meyerweb.com/eric/tools/css/reset/ \r\n   v2.0 | 20110126\r\n   License: none (public domain)\r\n*/\r\n\r\nhtml,\r\nbody,\r\ndiv,\r\nspan,\r\napplet,\r\nobject,\r\niframe,\r\nh1,\r\nh2,\r\nh3,\r\nh4,\r\nh5,\r\nh6,\r\np,\r\nblockquote,\r\npre,\r\na,\r\nabbr,\r\nacronym,\r\naddress,\r\nbig,\r\ncite,\r\ncode,\r\ndel,\r\ndfn,\r\nem,\r\nimg,\r\nins,\r\nkbd,\r\nq,\r\ns,\r\nsamp,\r\nsmall,\r\nstrike,\r\nstrong,\r\nsub,\r\nsup,\r\ntt,\r\nvar,\r\nb,\r\nu,\r\ni,\r\ncenter,\r\ndl,\r\ndt,\r\ndd,\r\nol,\r\nul,\r\nli,\r\nfieldset,\r\nform,\r\nlabel,\r\nlegend,\r\ntable,\r\ncaption,\r\ntbody,\r\ntfoot,\r\nthead,\r\ntr,\r\nth,\r\ntd,\r\narticle,\r\naside,\r\ncanvas,\r\ndetails,\r\nembed,\r\nfigure,\r\nfigcaption,\r\nfooter,\r\nheader,\r\nhgroup,\r\nmenu,\r\nnav,\r\noutput,\r\nruby,\r\nsection,\r\nsummary,\r\ntime,\r\nmark,\r\naudio,\r\nvideo {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n\tborder: 0;\r\n\tfont-size: 100%;\r\n\tfont: inherit;\r\n\tvertical-align: baseline;\r\n}\r\n/* HTML5 display-role reset for older browsers */\r\narticle,\r\naside,\r\ndetails,\r\nfigcaption,\r\nfigure,\r\nfooter,\r\nheader,\r\nhgroup,\r\nmenu,\r\nnav,\r\nsection {\r\n\tdisplay: block;\r\n}\r\nbody {\r\n\tline-height: 1;\r\n}\r\nol,\r\nul {\r\n\tlist-style: none;\r\n}\r\nblockquote,\r\nq {\r\n\tquotes: none;\r\n}\r\nblockquote:before,\r\nblockquote:after,\r\nq:before,\r\nq:after {\r\n\tcontent: '';\r\n\tcontent: none;\r\n}\r\ntable {\r\n\tborder-collapse: collapse;\r\n\tborder-spacing: 0;\r\n}\r\n\r\nhtml,\r\nbody {\r\n\tbox-sizing: border-box;\r\n\tfont-family: 'Roboto', sans-serif;\r\n\tfont-size: 62.5%;\r\n}\r\n:root {\r\n\t--primary-color: #141414;\r\n\t--header-background: #00000000;\r\n\t--header-background-scroll: #181818e6;\r\n\t--text-color: #ffffff;\r\n\t--red: #ea3c2a;\r\n\t--orange: #ea6016;\r\n\t--light-orange: #ff8800;\r\n\t--primary-button-background: linear-gradient(\r\n\t\t90deg,\r\n\t\tvar(--light-orange),\r\n\t\tvar(--red) 50%,\r\n\t\tvar(--light-orange)\r\n\t);\r\n\t--primary-button-shadow: 0 0 14px -1px var(--light-orange);\r\n\t--card-shadow: 0 0 14px -1px var(--light-orange);\r\n\t--link-hover-color: var(--orange);\r\n\t--box-shadow-blue: 0 4px 8px 0 var(#09ccc74d);\r\n\t--search-background: #ffffff1a;\r\n\t--heading-before-background: linear-gradient(\r\n\t\t180deg,\r\n\t\tvar(--light-orange),\r\n\t\tvar(--red)\r\n\t);\r\n\t--user-info-back-ground: #353434;\r\n\t--user-info-hover-item: #403f3f;\r\n}\r\n.padding-side-100 {\r\n\tpadding: 0 10rem;\r\n}\r\na {\r\n\t\r\n}"
+        }
+    ]
+}

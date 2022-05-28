@@ -1,0 +1,66 @@
+{
+    "sourceFile": "js/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 12,
+            "patches": [
+                {
+                    "date": 1647531887023,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1647531902406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,5 @@\n-$('.autoplay').slick({\r\n-  slidesToShow: 3,\r\n-  slidesToScroll: 1,\r\n-  autoplay: true,\r\n-  autoplaySpeed: 2000,\r\n+$(document).ready(function(){\r\n+  $('.your-class').slick({\r\n+    setting-name: setting-value\r\n+  });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531914890,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,5 +1,9 @@\n $(document).ready(function(){\r\n-  $('.your-class').slick({\r\n-    setting-name: setting-value\r\n+  $('.fade').slick({\r\n+    dots: true,\r\n+    infinite: true,\r\n+    speed: 500,\r\n+    fade: true,\r\n+    cssEase: 'linear'\r\n   });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647531921886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n $(document).ready(function(){\r\n-  $('.fade').slick({\r\n+  $('.main__slider').slick({\r\n     dots: true,\r\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n"
+                },
+                {
+                    "date": 1647531933802,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $(document).ready(function(){\r\n   $('.main__slider').slick({\r\n-    dots: true,\r\n+    dots: fl,\r\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n     cssEase: 'linear'\r\n"
+                },
+                {
+                    "date": 1647539349478,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n $(document).ready(function(){\r\n   $('.main__slider').slick({\r\n-    dots: fl,\r\n+    dots: false,\r\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n-    cssEase: 'linear'\r\n+    cssEase: 'linear', au\r\n   });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647539354901,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -3,7 +3,8 @@\n     dots: false,\r\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n-    cssEase: 'linear', au\r\n+    cssEase: 'linear', \r\n+    \r\n   });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647539362099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,7 +4,7 @@\n     infinite: true,\r\n     speed: 500,\r\n     fade: true,\r\n     cssEase: 'linear', \r\n-    \r\n+    autoplay: 'true'\r\n   });\r\n });\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1647539378657,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,10 +1,13 @@\n-$(document).ready(function(){\r\n-  $('.main__slider').slick({\r\n-    dots: false,\r\n-    infinite: true,\r\n-    speed: 500,\r\n-    fade: true,\r\n-    cssEase: 'linear', \r\n-    autoplay: 'true'\r\n-  });\r\n-});\n\\ No newline at end of file\n+$(document).ready(function () {\r\n+\t$('.main__slider').slick({\r\n+\t\tdots: false,\r\n+\t\tinfinite: true,\r\n+\t\tspeed: 500,\r\n+\t\tfade: true,\r\n+\t\tcssEase: 'linear',\r\n+\t\tautoplay: 'true',slidesToShow: 3,\r\n+    slidesToScroll: 1,\r\n+    autoplay: true,\r\n+    autoplaySpeed: 2000,\r\n+\t});\r\n+});\r\n"
+                },
+                {
+                    "date": 1647539385089,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -4,9 +4,8 @@\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n-\t\tautoplay: 'true',slidesToShow: 3,\r\n     slidesToScroll: 1,\r\n     autoplay: true,\r\n     autoplaySpeed: 2000,\r\n \t});\r\n"
+                },
+                {
+                    "date": 1647539486679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $(document).ready(function () {\r\n \t$('.main__slider').slick({\r\n-\t\tdots: false,\r\n+\t\tdots: true,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n"
+                },
+                {
+                    "date": 1647539620188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n $(document).ready(function () {\r\n \t$('.main__slider').slick({\r\n-\t\tdots: ,\r\n+\t\tdots: false,\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n"
+                },
+                {
+                    "date": 1647539905667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,8 +1,8 @@\n $(document).ready(function () {\r\n \t$('.main__slider').slick({\r\n \t\tdots: true,\r\n-    arrow: \r\n+    arrow: f\r\n \t\tinfinite: true,\r\n \t\tspeed: 500,\r\n \t\tfade: true,\r\n \t\tcssEase: 'linear',\r\n"
+                }
+            ],
+            "date": 1647531887023,
+            "name": "Commit-0",
+            "content": "$('.autoplay').slick({\r\n  slidesToShow: 3,\r\n  slidesToScroll: 1,\r\n  autoplay: true,\r\n  autoplaySpeed: 2000,\r\n});"
+        }
+    ]
+}
