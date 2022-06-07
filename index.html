@@ -1,990 +1,918 @@
 <!DOCTYPE html>
 <html lang="en">
 
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<!-- Google Font Roboto -->
-		<style>
-			@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-		</style>
-		<!-- Google Icons -->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
-		<!-- Boxicon -->
-		<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-		<!-- Slick Slider CSS -->
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-		<!-- My CSS -->
-		<link rel="stylesheet" href="styles/reset.css" />
-		<link rel="stylesheet" href="styles/scroll.css" />
-		<link rel="stylesheet" href="styles/header.css" />
-		<link rel="stylesheet" href="styles/index.css" />
-		<link rel="stylesheet" href="styles/footer.css" />
-		<title>E-Components Shop</title>
-		<link rel="icon" href="asset/logopink.png" />
-	</head>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Google Font Roboto -->
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+	</style>
+	<!-- Google Icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet" />
+	<!-- Boxicon -->
+	<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+	<!-- Slick Slider CSS -->
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<!-- My CSS -->
+	<link rel="stylesheet" href="styles/reset.css" />
+	<link rel="stylesheet" href="styles/scroll.css" />
+	<link rel="stylesheet" href="styles/header.css" />
+	<link rel="stylesheet" href="styles/index.css" />
+	<link rel="stylesheet" href="styles/footer.css" />
+	<title>E-Components Shop</title>
+	<link rel="icon" href="asset/logopink.png" />
+</head>
 
-	<body>
-		<div class="web-container">
-						<header class="header">
-							<div class="header__logo-nav">
-								<div class="header__logo">
-									<a href="index.html" class="header__logo--link"><img src="asset/brand.png" alt="" /></a>
-								</div>
-								<div class="header__nav">
-									<div class="header__nav--container">
-										<div class="header__nav--item">
-											<a href="list.html" class="header__nav--link">
-												<span>Product</span>
-												<span class="material-icons header__nav--link__icon">
-													view_list
-												</span>
-											</a>
-										</div>
-										<div class="header__nav--item">
-											<a href="category.html" class="header__nav--link">
-												<span>News</span>
-												<span class="material-icons header__nav--link__icon">
-													flare
-												</span>
-											</a>
-										</div>
-										<div class="header__nav--item">
-											<a href="category.html" class="header__nav--link">
-												<span>About us</span>
-												<span class="material-icons header__nav--link__icon">
-													info
-												</span>
-											</a>
-										</div>
-										<div class="header__nav--item">
-											<a href="category.html" class="header__nav--link">
-												<span>Contact</span>
-												<span class="material-icons header__nav--link__icon">
-													contacts
-												</span>
-											</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="header__user-search">
-								<div class="header__search">
-									<div class="header__search--container">
-										<input type="text" class="header__search--input" placeholder="Search" />
-										<span class="material-icons"> search </span>
-									</div>
-								</div>
-								<div class="header__user">
-									<div class="header__user--img">
-										<img src="asset/user.jpg" alt="" />
-									</div>
-									<div class="header__user--info">
-										<div class="header__user--info__item header__user--info__item--active header__user--info__heading">
-											<a href="profile.html" class="header__user--info__link">
-												<div class="header__user--info__avatar">
-													<img src="asset/user.jpg" alt="" />
-												</div>
-												<div class="header__user--info__desc">
-													<span>User ID: tungSfer512</span>
-													<span>Join: 5 Dec 2022</span>
-												</div>
-												<div class="header__user--info__edit">
-													<span class="material-icons-outlined"> edit </span>
-												</div>
-											</a>
-										</div>
-										<div class="header__user--info__item">
-											<a href="cart.html" class="header__user--info__link">
-												<span class="material-icons header__user--info__icon">
-													shopping_cart
-												</span>
-												<span>Cart</span>
-											</a>
-										</div>
-										<div class="header__user--info__item">
-											<a href="follow.html" class="header__user--info__link">
-												<span class="material-icons header__user--info__icon">
-													bookmark
-												</span>
-												<span>Follow</span>
-											</a>
-										</div>
-										<div class="header__user--info__item">
-											<a href="ordered.html" class="header__user--info__link">
-												<span class="material-icons header__user--info__icon">
-													history
-												</span>
-												<span>Order History</span>
-											</a>
-										</div>
-										<div class="header__user--info__item">
-											<a href="wishlist.html" class="header__user--info__link">
-												<span class="material-icons header__user--info__icon">
-													favorite_border
-												</span>
-												<span>Wishlist</span>
-											</a>
-										</div>
-										<div class="header__user--info__item header__user--info__footer">
-											<a href="login.html" class="header__user--info__link">
-												<span class="material-icons header__user--info__icon">
-													logout
-												</span>
-												<span>Logout</span>
-											</a>
-										</div>
-									</div>
-								</div>
-								<div class="header__nav-small-drop">
-									<span class="material-icons">
-										menu
-									</span>
-								</div>
-							</div>
-						</header>
-						<div class="header__nav-small">
-							<div class="header__nav-small-heading">
-								<span class="material-icons">
-									close
-								</span>
-							</div>
-							<div class="header__nav-small--container">
-								<div class="header__nav-small--item">
-									<a href="list.html" class="header__nav-small--link">
-										<span>Product</span>
-										<span class="material-icons header__nav-small--link__icon">
-											view_list
-										</span>
-									</a>
-								</div>
-								<div class="header__nav-small--item">
-									<a href="category.html" class="header__nav-small--link">
-										<span>News</span>
-										<span class="material-icons header__nav-small--link__icon">
-											flare
-										</span>
-									</a>
-								</div>
-								<div class="header__nav-small--item">
-									<a href="category.html" class="header__nav-small--link">
-										<span>About us</span>
-										<span class="material-icons header__nav-small--link__icon">
-											info
-										</span>
-									</a>
-								</div>
-								<div class="header__nav-small--item">
-									<a href="category.html" class="header__nav-small--link">
-										<span>Contact</span>
-										<span class="material-icons header__nav-small--link__icon">
-											contacts
-										</span>
-									</a>
-								</div>
-							</div>
-						</div>
-			<div class="main__content">
-				<div class="main__slider">
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
-					<div class="main__slider--item"></div>
+<body>
+	<div class="web-container">
+		<header class="header">
+			<div class="header__logo-nav">
+				<div class="header__logo">
+					<a href="index.html" class="header__logo--link"><img src="asset/brand.png" alt="" /></a>
 				</div>
-				<div class="main__body">
-					<div class="main__comic padding-top-bottom-100 padding-side-100">
-						<div class="main__comic--heading">
-							<div>
-								<span>Newest products !!! 🔥</span>
-								<span class="material-icons"> arrow_forward_ios </span>
-							</div>
+				<div class="header__nav">
+					<div class="header__nav--container">
+						<div class="header__nav--item">
+							<a href="list.html" class="header__nav--link">
+								<span>Sản phẩm</span>
+								<span class="material-icons header__nav--link__icon">
+									view_list
+								</span>
+							</a>
 						</div>
-						<div class="main__comic--content">
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product2.png" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product3.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product4.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product5.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product2.png" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product3.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product4.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product5.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-
+						<div class="header__nav--item">
+							<a href="#category.html" class="header__nav--link">
+								<span>Tin tức</span>
+								<span class="material-icons header__nav--link__icon">
+									flare
+								</span>
+							</a>
 						</div>
-					</div>
-					<div class="main__sale-off padding-top-bottom-100 padding-side-100">
-						<div class="main__sale-off--img">
-							<img src="asset/product-discount.jpg" alt="">
+						<div class="header__nav--item">
+							<a href="#category.html" class="header__nav--link">
+								<span>Thông tin</span>
+								<span class="material-icons header__nav--link__icon">
+									info
+								</span>
+							</a>
 						</div>
-						<div class="main__sale-off--content">
-							<div class="main__sale-off--content__heading">
-								<span class="sale-off-text">Every weekend sale off !!!</span>
-								<span class="sale-off-percent">-20%</span>
-								<div class="input-sale">
-									<input type="email" name="" id="" placeholder="Enter your email">
-									<input type="submit" value="Submit">
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="main__comic padding-top-bottom-100 padding-side-100">
-						<div class="main__comic--heading">
-							<div>
-								<span>Best Seller !!! 🔥</span>
-								<span class="material-icons"> arrow_forward_ios </span>
-							</div>
-						</div>
-						<div class="main__comic--content">
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product-discount.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-
-					<div class="main__comic padding-top-bottom-100 padding-side-100">
-						<div class="main__comic--heading">
-							<div>
-								<span>Hot products !!! 🔥</span>
-								<span class="material-icons"> arrow_forward_ios </span>
-							</div>
-						</div>
-						<div class="main__comic--content">
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-							<div class="main__comic--content__item">
-								<a href="item.html" class="main__comic--content__item--img">
-									<img src="asset/product1.jpg" alt="">
-								</a>
-								<div class="main__comic--content__item--action">
-									<div class="add-to-cart">
-										<span class="material-icons">
-											add_shopping_cart
-										</span>
-									</div>
-									<div class="add-to-wishlist">
-										<span class="material-icons">
-											favorite_border
-										</span>
-									</div>
-								</div>
-								<a href="item.html" class="main__comic--content__item--desc">
-									<div class="main__comic--content__item--desc__heading">item name</div>
-									<div class="main__comic--content__item--desc__content">
-										<span class="new-price">$10.00</span>
-										<span class="old-price">$50.00</span>
-									</div>
-								</a>
-							</div>
-
+						<div class="header__nav--item">
+							<a href="#category.html" class="header__nav--link">
+								<span>Liên hệ</span>
+								<span class="material-icons header__nav--link__icon">
+									contacts
+								</span>
+							</a>
 						</div>
 					</div>
 				</div>
 			</div>
-			<footer class="footer">
-				<div class="footer-container padding-side-100">
-					<span class="footer-left">Copyright © 2022
-						<a href="#" target="_blank">Author Name</a>.
-						All rights reserved.
-					</span>
-					<span class="footer-right">
-						Hand-crafted & made with 
-						<span class="material-icons">favorite</span>
+			<div class="header__user-search">
+				<div class="header__search">
+					<div class="header__search--container">
+						<input type="text" class="header__search--input" placeholder="Tìm kiếm" />
+						<span class="material-icons"> search </span>
+					</div>
+				</div>
+				<div class="header__user">
+					<div class="header__user--img">
+						<img src="asset/user.jpg" alt="" />
+					</div>
+					<div class="header__user--info">
+						<div
+							class="header__user--info__item header__user--info__item--active header__user--info__heading">
+							<a href="profile.html" class="header__user--info__link">
+								<div class="header__user--info__avatar">
+									<img src="asset/user.jpg" alt="" />
+								</div>
+								<div class="header__user--info__desc">
+									<span>Tài khoản: tungSfer512</span>
+									<span>Tham gia: 5 Dec 2022</span>
+								</div>
+								<div class="header__user--info__edit">
+									<span class="material-icons-outlined"> edit </span>
+								</div>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="cart.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									shopping_cart
+								</span>
+								<span>Giỏ hàng</span>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="follow.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									bookmark
+								</span>
+								<span>Theo dõi đơn hàng</span>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="ordered.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									history
+								</span>
+								<span>Lịch sử</span>
+							</a>
+						</div>
+						<div class="header__user--info__item">
+							<a href="wishlist.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									favorite_border
+								</span>
+								<span>Yêu thích</span>
+							</a>
+						</div>
+						<div class="header__user--info__item header__user--info__footer">
+							<a href="login.html" class="header__user--info__link">
+								<span class="material-icons header__user--info__icon">
+									logout
+								</span>
+								<span>Đăng xuất</span>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="header__nav-small-drop">
+					<span class="material-icons">
+						menu
 					</span>
 				</div>
-			</footer>
+			</div>
+		</header>
+		<div class="header__nav-small">
+			<div class="header__nav-small-heading">
+				<span class="material-icons">
+					close
+				</span>
+			</div>
+			<div class="header__nav-small--container">
+				<div class="header__nav-small--item">
+					<a href="list.html" class="header__nav-small--link">
+						<span>Sản phẩm</span>
+						<span class="material-icons header__nav-small--link__icon">
+							view_list
+						</span>
+					</a>
+				</div>
+				<div class="header__nav-small--item">
+					<a href="#category.html" class="header__nav-small--link">
+						<span>Tin tức</span>
+						<span class="material-icons header__nav-small--link__icon">
+							flare
+						</span>
+					</a>
+				</div>
+				<div class="header__nav-small--item">
+					<a href="#category.html" class="header__nav-small--link">
+						<span>Thông tin</span>
+						<span class="material-icons header__nav-small--link__icon">
+							info
+						</span>
+					</a>
+				</div>
+				<div class="header__nav-small--item">
+					<a href="#category.html" class="header__nav-small--link">
+						<span>Liên hệ</span>
+						<span class="material-icons header__nav-small--link__icon">
+							contacts
+						</span>
+					</a>
+				</div>
+			</div>
 		</div>
-	</body>
+		<div class="main__content">
+			<div class="main__slider">
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+				<div class="main__slider--item"></div>
+			</div>
+			<div class="main__body">
+				<div class="main__comic padding-top-bottom-100 padding-side-100">
+					<div class="main__comic--heading">
+						<div>
+							<span>Sản phẩm mới nhất !!! 🔥</span>
+							<span class="material-icons"> arrow_forward_ios </span>
+						</div>
+					</div>
+					<div class="main__comic--content">
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product1.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Cục nguồn</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product2.png" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Mạch điều khiển</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product3.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product4.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product5.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Nguồn Adater</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product1.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Cục nguồn</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product2.png" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Mạch điều khiển</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product3.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product4.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product5.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Nguồn Adater</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="main__sale-off padding-top-bottom-100 padding-side-100">
+					<div class="main__sale-off--img">
+						<img src="asset/product-discount.jpg" alt="">
+					</div>
+					<div class="main__sale-off--content">
+						<div class="main__sale-off--content__heading">
+							<span class="sale-off-text">Giảm giá cuối tuần !!!</span>
+							<span class="sale-off-percent">-20%</span>
+							<div class="input-sale">
+								<input type="email" name="" id="" placeholder="Nhập email">
+								<input type="submit" value="Gửi">
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="main__comic padding-top-bottom-100 padding-side-100">
+					<div class="main__comic--heading">
+						<div>
+							<span>Sản phẩm hot !!! 🔥</span>
+							<span class="material-icons"> arrow_forward_ios </span>
+						</div>
+					</div>
+					<div class="main__comic--content">
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="main__comic padding-top-bottom-100 padding-side-100">
+					<div class="main__comic--heading">
+						<div>
+							<span>Sản phẩm bán chạy !!! 🔥</span>
+							<span class="material-icons"> arrow_forward_ios </span>
+						</div>
+					</div>
+					<div class="main__comic--content">
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/product-discount.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Combo máy bơm</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/p4.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Trạm hàn C11</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/p3.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Đồng hồ đa năng</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/p2.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Hộp đựng kit</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+						<div class="main__comic--content__item">
+							<a href="item.html" class="main__comic--content__item--img">
+								<img src="asset/p1.jpg" alt="">
+							</a>
+							<div class="main__comic--content__item--action">
+								<div class="add-to-cart">
+									<span class="material-icons">
+										add_shopping_cart
+									</span>
+								</div>
+								<div class="add-to-wishlist">
+									<span class="material-icons">
+										favorite_border
+									</span>
+								</div>
+							</div>
+							<a href="item.html" class="main__comic--content__item--desc">
+								<div class="main__comic--content__item--desc__heading">Quạt tản nhiệt</div>
+								<div class="main__comic--content__item--desc__content">
+									<span class="new-price">100.00đ</span>
+									<span class="old-price">500.00đ</span>
+								</div>
+							</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer-container padding-side-100">
+				<span class="footer-left">Copyright © 2022
+					<a href="#" target="_blank">Author Name</a>.
+					All rights reserved.
+				</span>
+				<span class="footer-right">
+					Hand-crafted & made with
+					<span class="material-icons">favorite</span>
+				</span>
+			</div>
+		</footer>
+	</div>
+</body>
 
 </html>
 <!-- Slick Slider JS -->
